@@ -1,0 +1,4 @@
+name: PotionPermissions
+author: MineSocket
+main: net.minesocket.potionpermissions.PotionPermissions
+version: 1.0
