@@ -2,3 +2,70 @@ name: PotionPermissions
 author: MineSocket
 main: net.minesocket.potionpermissions.PotionPermissions
 version: 1.0
+permissions:
+  potionpermissions.one:
+    default: op
+    children:
+      potionpermissions.speed.one: true
+      potionpermissions.blindness.one: true
+      potionpermissions.confusion.one: true
+      potionpermissions.damageresistance.one: true
+      potionpermissions.fastdigging.one: true
+      potionpermissions.fireresistance.one: true
+      potionpermissions.harm.one: true
+      potionpermissions.heal.one: true
+      ptoionpermissions.hunger.one: true
+      potionpermissions.increasedamage.one: true
+      potionpermissions.invisibility.one: true
+      potionpermissions.jump.one: true
+      potionpermissions.nightvision.one: true
+      potionpermissions.regeneration.one: true
+      potionpermissions.slow.one: true
+      potionpermissions.slowdigging.one: true
+      potionpermissions.waterbreathing.one: true
+      potionpermissions.weakness.one: true
+      potionpermissions.wither.one: true
+  potionpermissions.two:
+    default: op
+    children:
+      potionpermissions.speed.two: true
+      potionpermissions.blindness.two: true
+      potionpermissions.confusion.two: true
+      potionpermissions.damageresistance.two: true
+      potionpermissions.fastdigging.two: true
+      potionpermissions.fireresistance.two: true
+      potionpermissions.harm.two: true
+      potionpermissions.heal.two: true
+      ptoionpermissions.hunger.two: true
+      potionpermissions.increasedamage.two: true
+      potionpermissions.invisibility.two: true
+      potionpermissions.jump.two: true
+      potionpermissions.nightvision.two: true
+      potionpermissions.regeneration.two: true
+      potionpermissions.slow.two: true
+      potionpermissions.slowdigging.two: true
+      potionpermissions.waterbreathing.two: true
+      potionpermissions.weakness.two: true
+      potionpermissions.wither.two: true
+  potionpermissions.three:
+    default: op
+    children:
+      potionpermissions.speed.three: true
+      potionpermissions.blindness.three: true
+      potionpermissions.confusion.three: true
+      potionpermissions.damageresistance.three: true
+      potionpermissions.fastdigging.three: true
+      potionpermissions.fireresistance.three: true
+      potionpermissions.harm.three: true
+      potionpermissions.heal.three: true
+      ptoionpermissions.hunger.three: true
+      potionpermissions.increasedamage.three: true
+      potionpermissions.invisibility.three: true
+      potionpermissions.jump.three: true
+      potionpermissions.nightvision.three: true
+      potionpermissions.regeneration.three: true
+      potionpermissions.slow.three: true
+      potionpermissions.slowdigging.three: true
+      potionpermissions.waterbreathing.three: true
+      potionpermissions.weakness.three: true
+      potionpermissions.wither.three: true
