@@ -1,6 +1,7 @@
 package net.minesocket.potionpermissions;
 
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.potion.PotionEffect;
@@ -15,6 +16,7 @@ public class InventoryCloseListener implements Listener {
 		plugin = instance;
 	}
 
+	@EventHandler
 	public void onInventoryClose(InventoryCloseEvent event) {
 		Player p = (Player) event.getPlayer();
 		// Speed
