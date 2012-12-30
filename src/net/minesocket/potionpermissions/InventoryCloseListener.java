@@ -8,6 +8,13 @@ import org.bukkit.potion.PotionEffectType;
 
 public class InventoryCloseListener implements Listener {
 	
+	
+    public static PotionPermissions plugin;
+	
+	public InventoryCloseListener(PotionPermissions instance) {
+		plugin = instance;
+	}
+	
 	public void onInventoryClose(InventoryCloseEvent event) {
 		Player p = (Player) event.getPlayer();
 		// Speed
