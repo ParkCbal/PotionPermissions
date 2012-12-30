@@ -174,14 +174,14 @@ public class PotionListener implements Listener {
 			p.removePotionEffect(PotionEffectType.POISON);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.POISON, 18000, 2));
 		}// Regeneration
-		if (p.hasPermission("potionpermissionsregeneration.one")) {
+		if (p.hasPermission("potionpermissions.regeneration.one")) {
 			p.removePotionEffect(PotionEffectType.REGENERATION);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 18000, 0));
 		}
-		if (p.hasPermission("potionpermissionsregeneration.two")) {
+		if (p.hasPermission("potionpermissions.regeneration.two")) {
 			p.removePotionEffect(PotionEffectType.REGENERATION);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 18000, 1));
-		} if (p.hasPermission("potionpermissionsregeneration.three")) {
+		} if (p.hasPermission("potionpermissions.regeneration.three")) {
 			p.removePotionEffect(PotionEffectType.REGENERATION);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.REGENERATION, 18000, 2));
 		}// Slow

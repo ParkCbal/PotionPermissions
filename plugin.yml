@@ -3,6 +3,126 @@ author: MineSocket
 main: net.minesocket.potionpermissions.PotionPermissions
 version: 1.0
 permissions:
+  potionpermissions.speed.one:
+    default: false
+  potionpermissions.blindness.one:
+    default: false
+  potionpermissions.confusion.one:
+    default: false
+  potionpermissions.damageresistance.one:
+    default: false
+  potionpermissions.fastdigging.one:
+    default: false
+  potionpermissions.fireresistance.one:
+    default: false
+  potionpermissions.harm.one:
+    default: false
+  potionpermissions.heal.one:
+    default: false
+  potionpermissions.hunger.one:
+    default: false
+  potionpermissions.increasedamage.one:
+    default: false
+  potionpermissions.invisibility.one:
+    default: false
+  potionpermissions.jump.one:
+    default: false
+  potionpermissions.nightvision.one:
+    default: false
+  potionpermissions.poison.one:
+    default: false
+  potionpermissions.regeneration.one:
+    default: false
+  potionpermissions.slow.one:
+    default: false
+  potionpermissions.slowdigging.one:
+    default: false
+  potionpermissions.waterbreathing.one:
+    default: false
+  potionpermissions.wither.one:
+    default: false
+  potionpermissions.weakness.one:
+    default: false
+  potionpermissions.speed.two:
+    default: false
+  potionpermissions.blindness.two:
+    default: false
+  potionpermissions.confusion.two:
+    default: false
+  potionpermissions.damageresistance.two:
+    default: false
+  potionpermissions.fastdigging.two:
+    default: false
+  potionpermissions.fireresistance.two:
+    default: false
+  potionpermissions.harm.two:
+    default: false
+  potionpermissions.hunger.two:
+    default: false
+  potionpermissions.heal.two:
+    default: false
+  potionpermissions.increasedamage.two:
+    default: false
+  potionpermissions.invisibility.two:
+    default: false
+  potionpermissions.jump.two:
+    default: false
+  potionpermissions.nightvision.two:
+    default: false
+  potionpermissions.poison.two:
+    default: false
+  potionpermissions.regeneration.two:
+    default: false
+  potionpermissions.slow.two:
+    default: false
+  potionpermissions.slowdigging.two:
+    default: false
+  potionpermissions.waterbreathing.two:
+    default: false
+  potionpermissions.wither.two:
+    default: false
+  potionpermissions.weakness.two:
+    default: false
+  potionpermissions.speed.three:
+    default: false
+  potionpermissions.blindness.three:
+    default: false
+  potionpermissions.confusion.three:
+    default: false
+  potionpermissions.damageresistance.three:
+    default: false
+  potionpermissions.fastdigging.three:
+    default: false
+  potionpermissions.fireresistance.three:
+    default: false
+  potionpermissions.harm.three:
+    default: false
+  potionpermissions.heal.three:
+    default: false
+  potionpermissions.hunger.three:
+    default: false
+  potionpermissions.increasedamage.three:
+    default: false
+  potionpermissions.invisibility.three:
+    default: false
+  potionpermissions.jump.three:
+    default: false
+  potionpermissions.nightvision.three:
+    default: false
+  potionpermissions.poison.three:
+    default: false
+  potionpermissions.regeneration.three:
+    default: false
+  potionpermissions.slow.three:
+    default: false
+  potionpermissions.slowdigging.three:
+    default: false
+  potionpermissions.waterbreathing.three:
+    default: false
+  potionpermissions.wither.three:
+    default: false
+  potionpermissions.weakness.three:
+    default: false
   potionpermissions.one:
     default: false
     children:
