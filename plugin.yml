@@ -4,7 +4,7 @@ main: net.minesocket.potionpermissions.PotionPermissions
 version: 1.0
 permissions:
   potionpermissions.one:
-    default: op
+    default: false
     children:
       potionpermissions.speed.one: true
       potionpermissions.blindness.one: true
@@ -26,7 +26,7 @@ permissions:
       potionpermissions.weakness.one: true
       potionpermissions.wither.one: true
   potionpermissions.two:
-    default: op
+    default: false
     children:
       potionpermissions.speed.two: true
       potionpermissions.blindness.two: true
@@ -48,7 +48,7 @@ permissions:
       potionpermissions.weakness.two: true
       potionpermissions.wither.two: true
   potionpermissions.three:
-    default: op
+    default: false
     children:
       potionpermissions.speed.three: true
       potionpermissions.blindness.three: true
