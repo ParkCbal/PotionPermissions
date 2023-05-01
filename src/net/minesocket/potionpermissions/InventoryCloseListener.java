@@ -241,5 +241,17 @@ public class InventoryCloseListener implements Listener {
 			p.removePotionEffect(PotionEffectType.WITHER);
 			p.addPotionEffect(new PotionEffect(PotionEffectType.WITHER, 18000, 2));
 		}
+		}// Luck
+		if (p.hasPermission("potionpermissions.luck.one")) {
+			p.removePotionEffect(PotionEffectType.LUCK);
+			p.addPotionEffect(new PotionEffect(PotionEffectType.LUCK, 18000, 0));
+		}
+		if (p.hasPermission("potionpermissions.luck.two")) {
+			p.removePotionEffect(PotionEffectType.LUCK);
+			p.addPotionEffect(new PotionEffect(PotionEffectType.LUCK, 18000, 1));
+		} if (p.hasPermission("potionpermissions.luck.three")) {
+			p.removePotionEffect(PotionEffectType.LUCK);
+			p.addPotionEffect(new PotionEffect(PotionEffectType.LUCK, 18000, 2));
+		}
 	}
 }
